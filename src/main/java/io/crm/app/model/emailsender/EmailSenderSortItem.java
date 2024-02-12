@@ -1,0 +1,15 @@
+package io.crm.app.model.emailsender;
+public enum EmailSenderSortItem {
+
+    EMAIL_SENDER_ID_ASC,
+    EMAIL_SENDER_ID_DESC,
+
+    EMAIL_SEND_CUSTOMER_ASC,
+    EMAIL_SEND_CUSTOMER_DESC,
+
+    EMAIL_SEND_GROUP_ASC,
+    EMAIL_SEND_GROUP_DESC,
+
+    CREATED_TIMESTAMP_ASC,
+    UPDATED_TIMESTAMP_DESC;
+}

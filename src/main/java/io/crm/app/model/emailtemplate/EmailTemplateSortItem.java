@@ -1,0 +1,15 @@
+package io.crm.app.model.emailtemplate;
+public enum EmailTemplateSortItem {
+
+    EMAIL_TEMPLATE_ID_ASC,
+    EMAIL_TEMPLATE_ID_DESC,
+
+    EMAIL_TEMPLATE_NAME_ASC,
+    EMAIL_TEMPLATE_NAME_DESC,
+
+    EMAIL_TEMPLATE_CONTENT_ASC,
+    EMAIL_TEMPLATE_CONTENT_DESC,
+
+    CREATED_TIMESTAMP_ASC,
+    UPDATED_TIMESTAMP_DESC;
+}
